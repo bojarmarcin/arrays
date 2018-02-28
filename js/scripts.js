@@ -1,18 +1,17 @@
-
-var names1 = array();
+var names1 = Array();
 for(x = 0; x < 5; x++) {
-  names1[x] = prompt(' Enter random names: ');
+  names1[x] = prompt(' Enter random female names: ');
 }
-alert(' Your first names are: ' + names1);
+alert(' Your female names are: ' + names1);
 
-var names2 = array();
+var names2 = Array();
 for(x = 0; x < 5; x++) {
-  names2[x] = prompt(' Enter random names: ');
+  names2[x] = prompt(' Enter random male names: ');
 }
-alert(' Your second names are: ' + names2);
+alert(' Your male names are: ' + names2);
 
 var names = names1.concat(names2);
-alert(' All names are: ' + names2)
+alert(' All names are: ' + names)
 
 
 var newName = prompt(' Enter new name ');
