@@ -1,15 +1,14 @@
-var i = 0;
-
-function getNames () {
+function getNames (amount) {
   var arr = [];
-  for(i; i < 5; i++) {
+  var i = 0;
+  for(i; i < amount; i++) {
     arr[x] = prompt(' Enter names: ');
   }
   return arr;
 }
 
-var names1 = getNames();
-var names2 = getNames();
+var names1 = getNames(5);
+var names2 = getNames(5);
 
 var names = names1.concat(names2);
 alert(' All names are: ' + names)
